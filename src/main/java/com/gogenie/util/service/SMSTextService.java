@@ -1,0 +1,8 @@
+package com.gogenie.util.service;
+
+import com.gogenie.util.exceptiom.GoGenieUtilityServiceException;
+
+public interface SMSTextService {
+
+	public boolean sendTextMessageToPhone(Integer phonenumber) throws GoGenieUtilityServiceException;
+}
