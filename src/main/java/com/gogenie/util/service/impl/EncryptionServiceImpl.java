@@ -19,5 +19,4 @@ public class EncryptionServiceImpl implements EncryptionService {
 		}
 		return false;
 	}
-
 }
