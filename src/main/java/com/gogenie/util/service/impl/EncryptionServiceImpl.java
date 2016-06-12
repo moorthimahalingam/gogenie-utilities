@@ -7,12 +7,12 @@ import com.gogenie.util.service.EncryptionService;
 
 public class EncryptionServiceImpl implements EncryptionService {
 
-	public String encryptedValue(String inputValue) throws GoGenieUtilityServiceException {
+	public String hashedValue(String inputValue) throws GoGenieUtilityServiceException {
 		String encryptedValue = BCrypt.hashpw(inputValue, BCrypt.gensalt(12));
 		return encryptedValue;
 	}
 
-	public boolean validateEncryptedValue(String inputValue, String encryptedValue)
+	public boolean validateHashedValue(String inputValue, String encryptedValue)
 			throws GoGenieUtilityServiceException {
 		if (BCrypt.checkpw(inputValue, encryptedValue)) {
 			return true;
