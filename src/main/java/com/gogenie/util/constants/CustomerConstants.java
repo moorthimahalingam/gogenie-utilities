@@ -24,7 +24,7 @@ public interface CustomerConstants {
 	public static final String SECURITY_QUESTION2 = "security_question2"; 
 	public static final String SECURITY_ANSWER2 = "security_answer2";
 
-	public static final String ADDRESS_DETAILS_ID = "" ; 
+	public static final String ADDRESS_DETAILS_ID = "address_details_id" ; 
 	public static final String COUNTRY_ID = "country_id" ; 
 	public static final String STATE_ID = "state_id" ;  
 	public static final String CITY_ID = "city_id" ;  
@@ -38,7 +38,7 @@ public interface CustomerConstants {
 	public static final String CVV_NUMBER  = "cvv_number";
 	public static final String NAME_ON_CARD  = "name_on_card"; 
 	public static final String ZIPCODE  = "zipcode";
-	public static final String ISDEFAULT  = "is_default";
+	public static final String ISDEFAULT  = "isdefault_address";
 	
 	
 	
