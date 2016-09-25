@@ -1,6 +1,6 @@
 package com.gogenie.util.exceptiom;
 
-public class GoGenieUtilityServiceException extends Exception {
+public class GoGenieUtilityServiceException extends RuntimeException {
 
 	/**
 	 * 

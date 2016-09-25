@@ -34,6 +34,8 @@ public interface CustomerConstants {
 	public static final String CUSTOMER_PAYMENT_INFO_ID = "";
 	public static final String PAYEMENTTYPE  = "payementtype"; 
 	public static final String CARDNUMBER  = "cardnumber";
+	public static final String CARD_LAST_4_DIGITS  = "card_last_four";
+	public static final String CARD_LA  = "cardla";
 	public static final String EXPIRYDATE  = "expirydate"; 
 	public static final String CVV_NUMBER  = "cvv_number";
 	public static final String NAME_ON_CARD  = "name_on_card"; 
